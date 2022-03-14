@@ -1,0 +1,104 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Montserrat:wght@200;300&family=Roboto:wght@300&display=swap');
+
+
+
+#nav-bar{ 
+    display: flex;
+    border: 1px solid black;
+    padding:25px;
+    background-color:black;
+    color: white;
+    justify-content: space-between;
+    margin: auto;
+    
+    
+    
+}
+
+
+.links li{ 
+    text-align: end;
+    list-style-type: none;
+    display: inline;
+    justify-content: end;
+   
+    
+    
+
+    
+}
+a { 
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  
+    padding: 0.5rem 1rem;
+    background-color: #53C1DE;
+    border-radius: 0.3rem;
+    display: inline-flex;
+   justify-content: flex-end;
+    
+    
+}
+
+
+.img-main{   
+    display: flex;
+    height: 580px;
+    min-height: 240px;
+    width: 640px; 
+    justify-content: center;
+
+}
+
+#img-tag{ 
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.main-controls{    
+ text-align: center; 
+ display: block;
+ 
+ padding: 2.8rem 3rem;  
+ color:black;
+ background-color: #F3F4F6;
+border-radius: 25px;
+
+}
+
+.img-heading{   
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 2rem;
+    font-size: larger;
+}
+
+
+.main-controls2{  
+    text-align: center; 
+    display: block;
+    
+    padding: 2.8rem 3rem;  
+    color:black;
+    background-color:white;
+   border-radius: 25px;
+   
+}
+    
+
+.btn-prj{    
+    border-radius: 20px;
+    margin-top: 3px;
+}
